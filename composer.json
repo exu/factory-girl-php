@@ -19,9 +19,12 @@
         }
     ],
     "require": {
-        "php": ">=5.3.2"
+        "php": ">=5.3.2",
+        "doctrine/orm": "dev-master",
+        "doctrine/dbal": "dev-master#aa6be84b2804ce0d7f56a5d52693f983656d5eb8",
+        "doctrine/common": "2.4.*@beta"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "autoload": {
         "psr-0": {
             "FactoryGirl\\Tests": "tests",
